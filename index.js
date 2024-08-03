@@ -40,7 +40,7 @@ function fetchData() {
         appendItemToListEl(item);
       });
     } else {
-      listEl.innerHTML = "No items here";
+      listEl.innerHTML = "لاتوجد اصناف الان، بإمكانك إضافه ماتحتاجه";
     }
   });
 }
